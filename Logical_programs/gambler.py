@@ -17,7 +17,7 @@ while no_of_times>0:
         else:
             stake += bet # Won the bet
             no_of_win += 1
-    elif stake == goal:
+    elif stake == goal: 
         print("Reached the goal !")
         break
     elif stake < 0:
