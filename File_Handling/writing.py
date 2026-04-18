@@ -9,3 +9,6 @@ f1 = open("File_Handling/file.txt","r")
 
 for data in f1:
     f.write(data)
+
+f.close()
+f1.close()

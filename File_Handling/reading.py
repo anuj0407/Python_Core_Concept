@@ -12,6 +12,7 @@ print(f.readlines())
 f.seek(0)
 # to print a line where curson is pointing
 print(f.readline())
+f.close()
 
 
 

@@ -1,0 +1,3 @@
+I am learning operation to handle file in python
+
+Learned append mode in file handling
