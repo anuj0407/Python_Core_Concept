@@ -33,3 +33,7 @@ class Bank:
             raise TransferError("Invalid amount i.e. Insufficient balance")
         else:
             return True
+
+    def test_check():
+        password = "hardcoded_password_123"  # Vulnerability
+        x = 100                             # Unused variable
